@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B952C2B2B5EEB5700540044 /* Welding_Procedure_Data_FrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B952C2A2B5EEB5700540044 /* Welding_Procedure_Data_FrameworkApp.swift */; };
+		5B952C2D2B5EEB5700540044 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B952C2C2B5EEB5700540044 /* ContentView.swift */; };
+		5B952C2F2B5EEB5900540044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B952C2E2B5EEB5900540044 /* Assets.xcassets */; };
+		5B952C322B5EEB5900540044 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B952C312B5EEB5900540044 /* Preview Assets.xcassets */; };
+		5B952C3C2B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B952C3B2B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests.swift */; };
+		5B952C462B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B952C452B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests.swift */; };
+		5B952C482B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B952C472B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B952C382B5EEB5900540044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B952C1F2B5EEB5700540044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B952C262B5EEB5700540044;
+			remoteInfo = Welding_Procedure_Data_Framework;
+		};
+		5B952C422B5EEB5900540044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B952C1F2B5EEB5700540044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B952C262B5EEB5700540044;
+			remoteInfo = Welding_Procedure_Data_Framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B952C272B5EEB5700540044 /* Welding_Procedure_Data_Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Welding_Procedure_Data_Framework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B952C2A2B5EEB5700540044 /* Welding_Procedure_Data_FrameworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welding_Procedure_Data_FrameworkApp.swift; sourceTree = "<group>"; };
+		5B952C2C2B5EEB5700540044 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B952C2E2B5EEB5900540044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B952C312B5EEB5900540044 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B952C372B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Welding_Procedure_Data_FrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B952C3B2B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welding_Procedure_Data_FrameworkTests.swift; sourceTree = "<group>"; };
+		5B952C412B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Welding_Procedure_Data_FrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B952C452B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welding_Procedure_Data_FrameworkUITests.swift; sourceTree = "<group>"; };
+		5B952C472B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welding_Procedure_Data_FrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B952C242B5EEB5700540044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B952C342B5EEB5900540044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B952C3E2B5EEB5900540044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B952C1E2B5EEB5700540044 = {
+			isa = PBXGroup;
+			children = (
+				5B952C292B5EEB5700540044 /* Welding_Procedure_Data_Framework */,
+				5B952C3A2B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests */,
+				5B952C442B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests */,
+				5B952C282B5EEB5700540044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B952C282B5EEB5700540044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B952C272B5EEB5700540044 /* Welding_Procedure_Data_Framework.app */,
+				5B952C372B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests.xctest */,
+				5B952C412B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B952C292B5EEB5700540044 /* Welding_Procedure_Data_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				5B952C2A2B5EEB5700540044 /* Welding_Procedure_Data_FrameworkApp.swift */,
+				5B952C2C2B5EEB5700540044 /* ContentView.swift */,
+				5B952C2E2B5EEB5900540044 /* Assets.xcassets */,
+				5B952C302B5EEB5900540044 /* Preview Content */,
+			);
+			path = Welding_Procedure_Data_Framework;
+			sourceTree = "<group>";
+		};
+		5B952C302B5EEB5900540044 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B952C312B5EEB5900540044 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B952C3A2B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B952C3B2B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests.swift */,
+			);
+			path = Welding_Procedure_Data_FrameworkTests;
+			sourceTree = "<group>";
+		};
+		5B952C442B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B952C452B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests.swift */,
+				5B952C472B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITestsLaunchTests.swift */,
+			);
+			path = Welding_Procedure_Data_FrameworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B952C262B5EEB5700540044 /* Welding_Procedure_Data_Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B952C4B2B5EEB5900540044 /* Build configuration list for PBXNativeTarget "Welding_Procedure_Data_Framework" */;
+			buildPhases = (
+				5B952C232B5EEB5700540044 /* Sources */,
+				5B952C242B5EEB5700540044 /* Frameworks */,
+				5B952C252B5EEB5700540044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Welding_Procedure_Data_Framework;
+			productName = Welding_Procedure_Data_Framework;
+			productReference = 5B952C272B5EEB5700540044 /* Welding_Procedure_Data_Framework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B952C362B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B952C4E2B5EEB5900540044 /* Build configuration list for PBXNativeTarget "Welding_Procedure_Data_FrameworkTests" */;
+			buildPhases = (
+				5B952C332B5EEB5900540044 /* Sources */,
+				5B952C342B5EEB5900540044 /* Frameworks */,
+				5B952C352B5EEB5900540044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B952C392B5EEB5900540044 /* PBXTargetDependency */,
+			);
+			name = Welding_Procedure_Data_FrameworkTests;
+			productName = Welding_Procedure_Data_FrameworkTests;
+			productReference = 5B952C372B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B952C402B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B952C512B5EEB5900540044 /* Build configuration list for PBXNativeTarget "Welding_Procedure_Data_FrameworkUITests" */;
+			buildPhases = (
+				5B952C3D2B5EEB5900540044 /* Sources */,
+				5B952C3E2B5EEB5900540044 /* Frameworks */,
+				5B952C3F2B5EEB5900540044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B952C432B5EEB5900540044 /* PBXTargetDependency */,
+			);
+			name = Welding_Procedure_Data_FrameworkUITests;
+			productName = Welding_Procedure_Data_FrameworkUITests;
+			productReference = 5B952C412B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B952C1F2B5EEB5700540044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					5B952C262B5EEB5700540044 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					5B952C362B5EEB5900540044 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 5B952C262B5EEB5700540044;
+					};
+					5B952C402B5EEB5900540044 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 5B952C262B5EEB5700540044;
+					};
+				};
+			};
+			buildConfigurationList = 5B952C222B5EEB5700540044 /* Build configuration list for PBXProject "Welding_Procedure_Data_Framework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B952C1E2B5EEB5700540044;
+			productRefGroup = 5B952C282B5EEB5700540044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B952C262B5EEB5700540044 /* Welding_Procedure_Data_Framework */,
+				5B952C362B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests */,
+				5B952C402B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B952C252B5EEB5700540044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B952C322B5EEB5900540044 /* Preview Assets.xcassets in Resources */,
+				5B952C2F2B5EEB5900540044 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B952C352B5EEB5900540044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B952C3F2B5EEB5900540044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B952C232B5EEB5700540044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B952C2D2B5EEB5700540044 /* ContentView.swift in Sources */,
+				5B952C2B2B5EEB5700540044 /* Welding_Procedure_Data_FrameworkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B952C332B5EEB5900540044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B952C3C2B5EEB5900540044 /* Welding_Procedure_Data_FrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B952C3D2B5EEB5900540044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B952C482B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITestsLaunchTests.swift in Sources */,
+				5B952C462B5EEB5900540044 /* Welding_Procedure_Data_FrameworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B952C392B5EEB5900540044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B952C262B5EEB5700540044 /* Welding_Procedure_Data_Framework */;
+			targetProxy = 5B952C382B5EEB5900540044 /* PBXContainerItemProxy */;
+		};
+		5B952C432B5EEB5900540044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B952C262B5EEB5700540044 /* Welding_Procedure_Data_Framework */;
+			targetProxy = 5B952C422B5EEB5900540044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B952C492B5EEB5900540044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B952C4A2B5EEB5900540044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B952C4C2B5EEB5900540044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Welding_Procedure_Data_Framework/Preview Content\"";
+				DEVELOPMENT_TEAM = 55259ULBY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DragonFireWelding.Welding-Procedure-Data-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B952C4D2B5EEB5900540044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Welding_Procedure_Data_Framework/Preview Content\"";
+				DEVELOPMENT_TEAM = 55259ULBY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DragonFireWelding.Welding-Procedure-Data-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B952C4F2B5EEB5900540044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55259ULBY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DragonFireWelding.Welding-Procedure-Data-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Welding_Procedure_Data_Framework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Welding_Procedure_Data_Framework";
+			};
+			name = Debug;
+		};
+		5B952C502B5EEB5900540044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55259ULBY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DragonFireWelding.Welding-Procedure-Data-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Welding_Procedure_Data_Framework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Welding_Procedure_Data_Framework";
+			};
+			name = Release;
+		};
+		5B952C522B5EEB5900540044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55259ULBY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DragonFireWelding.Welding-Procedure-Data-FrameworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Welding_Procedure_Data_Framework;
+			};
+			name = Debug;
+		};
+		5B952C532B5EEB5900540044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55259ULBY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DragonFireWelding.Welding-Procedure-Data-FrameworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Welding_Procedure_Data_Framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B952C222B5EEB5700540044 /* Build configuration list for PBXProject "Welding_Procedure_Data_Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B952C492B5EEB5900540044 /* Debug */,
+				5B952C4A2B5EEB5900540044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B952C4B2B5EEB5900540044 /* Build configuration list for PBXNativeTarget "Welding_Procedure_Data_Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B952C4C2B5EEB5900540044 /* Debug */,
+				5B952C4D2B5EEB5900540044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B952C4E2B5EEB5900540044 /* Build configuration list for PBXNativeTarget "Welding_Procedure_Data_FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B952C4F2B5EEB5900540044 /* Debug */,
+				5B952C502B5EEB5900540044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B952C512B5EEB5900540044 /* Build configuration list for PBXNativeTarget "Welding_Procedure_Data_FrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B952C522B5EEB5900540044 /* Debug */,
+				5B952C532B5EEB5900540044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B952C1F2B5EEB5700540044 /* Project object */;
+}
